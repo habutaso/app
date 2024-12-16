@@ -48,6 +48,9 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <div>
+          env value: {process.env.NEXT_PUBLIC_EXAMPLE}
+        </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
